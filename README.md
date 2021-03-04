@@ -1,10 +1,10 @@
 # How to copy cell value of entire GridTemplateColumn in WPF DataGrid (SfDataGrid)?
 
-How to copy cell value of entire GridTemplateColumn in [WPF DataGrid](https://www.syncfusion.com/wpf-ui-controls/datagrid) (SfDataGrid)?
+This sample show cases how to copy cell value of entire [GridTemplateColumn](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Grid.GridTemplateColumn.html) in [WPF DataGrid](https://www.syncfusion.com/wpf-ui-controls/datagrid) (SfDataGrid)?
 
 # About the sample
 
-By default, [WPF DataGrid](https://www.syncfusion.com/wpf-ui-controls/datagrid) (SfDataGrid) does not provide the support copy paste (clipboard) operations in GridTemplateColumn. You can achieve this by overriding the CopyCell method in GridCutCopyPaste class.
+[WPF DataGrid](https://www.syncfusion.com/wpf-ui-controls/datagrid) (SfDataGrid) does not provide the support copy paste (clipboard) operations in [GridTemplateColumn](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Grid.GridTemplateColumn.html). You can achieve this by overriding the [CopyCell](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Grid.GridCutCopyPaste.html#Syncfusion_UI_Xaml_Grid_GridCutCopyPaste_CopyCell_System_Object_Syncfusion_UI_Xaml_Grid_GridColumn_System_Text_StringBuilder__) method in GridCutCopyPaste class.
 
 ```c#
 this.SampleDataGrid.GridCopyPaste = new CustomCopyPaste(this.SampleDataGrid);
