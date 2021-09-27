@@ -78,5 +78,7 @@ public class CustomCopyPaste : GridCutCopyPaste
 }
 ```
 
+KB article - [How to copy cell value of entire GridTemplateColumn in WPF DataGrid (SfDataGrid)?](https://www.syncfusion.com/kb/12011/how-to-copy-cell-value-of-entire-gridtemplatecolumn-in-wpf-datagrid-sfdatagrid)
+
 ## Requirements to run the demo
  Visual Studio 2015 and above versions
